@@ -30,7 +30,7 @@
 #---------------------------------------------------------------------------------------------------------------------
 TARGET      	:=  $(notdir $(CURDIR))
 BUILD       	:=  build
-LIBBUTANO   	:=  ../butano
+LIBBUTANO   	:=  ../../butano
 PYTHON      	:=  python
 SOURCES     	:=  src
 INCLUDES    	:=  include
@@ -38,7 +38,7 @@ DATA        	:=
 GRAPHICS    	:=  graphics
 AUDIO       	:=  audio
 DMGAUDIO    	:=  dmg_audio
-ROMTITLE    	:=  ROM TITLE
+ROMTITLE    	:=  SpaceInvaderGBA
 ROMCODE     	:=  SBTP
 USERFLAGS   	:=  
 USERCXXFLAGS	:=  
