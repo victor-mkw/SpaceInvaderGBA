@@ -1,9 +1,11 @@
 #include "si_player.h"
 
+#include "bn_log.h"
 #include "bn_keypad.h"
 #include "bn_sprite_tiles_ptr.h"
 
 #include "bn_sprite_items_ammo.h"
+#include "bn_sprite_items_fire.h"
 
 namespace si {
     Player::Player() {}
@@ -26,15 +28,33 @@ namespace si {
                 _bullets.pop_front();
             } 
             _bullets.push_back(bn::sprite_items::ammo.create_sprite(_spaceship_sprite.x() - 0.5, _spaceship_sprite.y() - 7.5));
-            // _bullets.back().get()->set_scale(0.5);
+            _bullets.back().get()->set_scale(0.5);
+
+            _fire_sprite = bn::sprite_items::fire.create_sprite(_spaceship_sprite.x(), _spaceship_sprite.y() - 2);
+            _fire_sprite_animation_key = 1;
         }
         
         for (auto it = _bullets.begin(); it != _bullets.end(); it++) {
-            it->get()->set_y(it->get()->y() - 2);
+            it->get()->set_y(it->get()->y() - _bullet_speed);
 
             if (it->get()->y() <= -80) {
                 _bullets.erase(it);
                 break;
+            }
+        }
+
+        if (_fire_sprite.has_value()) {
+            if (_animation_timer == _animation_cooldown) {
+                _fire_sprite.get()->set_tiles(bn::sprite_items::fire.tiles_item().create_tiles(_fire_sprite_animation_key));
+                if (_fire_sprite_animation_key < _fire_sprite_animation_max_key)
+                    _fire_sprite_animation_key+= 1;
+                else {
+                    _fire_sprite_animation_key = 0;
+                    _fire_sprite.reset();
+                }
+                _animation_timer = 0;
+            } else {
+                _animation_timer+= 1;
             }
         }
     }

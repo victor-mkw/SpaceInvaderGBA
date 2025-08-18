@@ -39,9 +39,13 @@ si_player.o: C:/butano/projects/SpaceInvaderGBA/src/si_player.cpp \
  C:/butano/butano/include/bn_tile.h \
  C:/butano/butano/include/bn_compression_type.h \
  C:/butano/butano/include/bn_sprite_palette_item.h \
- C:/butano/butano/include/bn_color.h C:/butano/butano/include/bn_keypad.h \
+ C:/butano/butano/include/bn_color.h C:/butano/butano/include/bn_log.h \
+ C:/butano/butano/include/bn_config_log.h \
+ C:/butano/butano/include/bn_log_backend.h \
+ C:/butano/butano/include/bn_keypad.h \
  C:/butano/butano/include/bn_sprite_tiles_ptr.h \
- C:/butano/projects/SpaceInvaderGBA/build/bn_sprite_items_ammo.h
+ C:/butano/projects/SpaceInvaderGBA/build/bn_sprite_items_ammo.h \
+ C:/butano/projects/SpaceInvaderGBA/build/bn_sprite_items_fire.h
 C:/butano/projects/SpaceInvaderGBA/include/si_player.h:
 C:/butano/butano/include/bn_deque.h:
 C:/butano/butano/include/bn_assert.h:
@@ -85,6 +89,10 @@ C:/butano/butano/include/bn_tile.h:
 C:/butano/butano/include/bn_compression_type.h:
 C:/butano/butano/include/bn_sprite_palette_item.h:
 C:/butano/butano/include/bn_color.h:
+C:/butano/butano/include/bn_log.h:
+C:/butano/butano/include/bn_config_log.h:
+C:/butano/butano/include/bn_log_backend.h:
 C:/butano/butano/include/bn_keypad.h:
 C:/butano/butano/include/bn_sprite_tiles_ptr.h:
 C:/butano/projects/SpaceInvaderGBA/build/bn_sprite_items_ammo.h:
+C:/butano/projects/SpaceInvaderGBA/build/bn_sprite_items_fire.h:
