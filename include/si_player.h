@@ -1,6 +1,8 @@
 #ifndef SI_PLAYER_H
 #define SI_PLAYER_H
 
+#include "si_bullet.h"
+
 #include "bn_span.h"
 #include "bn_deque.h"
 #include "bn_optional.h"
@@ -20,8 +22,7 @@ namespace si {
             bn::fixed _spaceship_speed = 1;
 
             // Bullets attributes
-            bn::deque<bn::optional<bn::sprite_ptr>, 32> _bullets;
-            const bn::fixed _bullet_speed = -3;
+            bn::deque<bn::optional<si::Bullet>, 32> _bullets;
 
             // Fire animation attributes
             bn::optional<bn::sprite_ptr> _fire_sprite;

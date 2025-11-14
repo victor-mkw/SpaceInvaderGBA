@@ -6,7 +6,6 @@
 #include "bn_sprite_animate_actions.h"
 
 #include "bn_sprite_items_fire.h"
-#include "bn_sprite_items_ammo.h"
 
 namespace si {
     Player::Player() {}
@@ -25,15 +24,15 @@ namespace si {
             _spaceship_sprite.set_tiles(bn::sprite_items::spaceship.tiles_item().create_tiles(0));
         }
 
-        // Bullet behaviour
+        // Fire a bullet behaviour
         if (bn::keypad::a_pressed()) {
             // If the bullet buffer is full, pop the first element
             if (_bullets.full())
                 _bullets.pop_front();
 
             // Calculate where the bullet should appear and push the sprite element at the back of the queue
-            _bullets.push_back(bn::sprite_items::ammo.create_sprite(_spaceship_sprite.x() - 0.5, _spaceship_sprite.y() - 7.5));
-            _bullets.back().get()->set_scale(0.5);
+            si::Bullet bullet = si::Bullet(_spaceship_sprite.x() - 0.5, _spaceship_sprite.y() - 7.5);
+            _bullets.push_back(bullet);
 
             // Instantiate the player fire sprite and play the animation
             _fire_sprite = bn::sprite_items::fire.create_sprite(_spaceship_sprite.x(), _spaceship_sprite.y() - 2);
@@ -42,13 +41,12 @@ namespace si {
         }
 
         for (auto it = _bullets.begin(); it != _bullets.end(); it++) {
-            it->get()->set_y(it->get()->y() + _bullet_speed);
+            it->get()->update();
 
-            if (it->get()->y() <= -80) {
+            if (it->get()->has_value() == false) {
                 _bullets.erase(it);
                 break;
             }
-            // it->get()->update();
         }
 
         // Fire animation update logic
