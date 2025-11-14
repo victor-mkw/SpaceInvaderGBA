@@ -1,0 +1,6 @@
+.vscode
+SpaceInvaderGBA.elf
+SpaceInvaderGBA.gba
+SpaceInvaderGBA.sav
+
+build/
