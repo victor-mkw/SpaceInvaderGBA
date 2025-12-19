@@ -6,6 +6,7 @@ bn_hblank_effects_manager.o: \
  C:/butano/butano/include/bn_vector.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
@@ -26,9 +27,6 @@ bn_hblank_effects_manager.o: \
  C:/butano/butano/hw/3rd_party/libugba/include/ugba/interrupts.h \
  C:/butano/butano/src/bn_bg_palette_color_hbe_handler.h \
  C:/butano/butano/src/bn_palettes_bank.h \
- C:/butano/butano/include/bn_span.h C:/butano/butano/include/bn_array.h \
- C:/butano/butano/include/bn_array_fwd.h \
- C:/butano/butano/include/bn_span_fwd.h \
  C:/butano/butano/include/bn_fixed.h \
  C:/butano/butano/include/bn_compare.h \
  C:/butano/butano/include/bn_color.h C:/butano/butano/include/bn_limits.h \
@@ -43,6 +41,10 @@ bn_hblank_effects_manager.o: \
  C:/butano/butano/include/bn_power_of_two.h \
  C:/butano/butano/include/bn_unordered_map_fwd.h \
  C:/butano/butano/src/bn_identity_hasher.h \
+ C:/butano/butano/include/bn_palette_effect_type.h \
+ C:/butano/butano/include/bn_span.h C:/butano/butano/include/bn_array.h \
+ C:/butano/butano/include/bn_array_fwd.h \
+ C:/butano/butano/include/bn_span_fwd.h \
  C:/butano/butano/hw/include/bn_hw_palettes.h \
  C:/butano/butano/hw/include/bn_hw_dma.h \
  C:/butano/butano/hw/include/bn_hw_tonc.h \
@@ -85,7 +87,7 @@ bn_hblank_effects_manager.o: \
  C:/butano/butano/include/bn_fixed_point_fwd.h \
  C:/butano/butano/include/bn_affine_bg_item.h \
  C:/butano/butano/include/bn_bg_palette_item.h \
- C:/butano/butano/include/bn_span.h C:/butano/butano/include/bn_color.h \
+ C:/butano/butano/include/bn_color.h \
  C:/butano/butano/include/bn_bpp_mode.h \
  C:/butano/butano/include/bn_compression_type.h \
  C:/butano/butano/include/bn_affine_bg_map_item.h \
@@ -150,6 +152,7 @@ bn_hblank_effects_manager.o: \
  C:/butano/butano/src/bn_sprite_first_attributes_hbe_handler.h \
  C:/butano/butano/include/bn_sprite_first_attributes.h \
  C:/butano/butano/src/bn_sprites_manager.h \
+ C:/butano/butano/include/bn_config_sprites.h \
  C:/butano/butano/include/bn_intrusive_list_fwd.h \
  C:/butano/butano/hw/include/bn_hw_sprites.h \
  C:/butano/butano/include/bn_sprite_builder.h \
@@ -265,6 +268,7 @@ C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_vector.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
@@ -285,10 +289,6 @@ C:/butano/butano/hw/include/bn_hw_irq.h:
 C:/butano/butano/hw/3rd_party/libugba/include/ugba/interrupts.h:
 C:/butano/butano/src/bn_bg_palette_color_hbe_handler.h:
 C:/butano/butano/src/bn_palettes_bank.h:
-C:/butano/butano/include/bn_span.h:
-C:/butano/butano/include/bn_array.h:
-C:/butano/butano/include/bn_array_fwd.h:
-C:/butano/butano/include/bn_span_fwd.h:
 C:/butano/butano/include/bn_fixed.h:
 C:/butano/butano/include/bn_compare.h:
 C:/butano/butano/include/bn_color.h:
@@ -304,6 +304,11 @@ C:/butano/butano/include/bn_unique_ptr_fwd.h:
 C:/butano/butano/include/bn_power_of_two.h:
 C:/butano/butano/include/bn_unordered_map_fwd.h:
 C:/butano/butano/src/bn_identity_hasher.h:
+C:/butano/butano/include/bn_palette_effect_type.h:
+C:/butano/butano/include/bn_span.h:
+C:/butano/butano/include/bn_array.h:
+C:/butano/butano/include/bn_array_fwd.h:
+C:/butano/butano/include/bn_span_fwd.h:
 C:/butano/butano/hw/include/bn_hw_palettes.h:
 C:/butano/butano/hw/include/bn_hw_dma.h:
 C:/butano/butano/hw/include/bn_hw_tonc.h:
@@ -346,7 +351,6 @@ C:/butano/butano/include/bn_point.h:
 C:/butano/butano/include/bn_fixed_point_fwd.h:
 C:/butano/butano/include/bn_affine_bg_item.h:
 C:/butano/butano/include/bn_bg_palette_item.h:
-C:/butano/butano/include/bn_span.h:
 C:/butano/butano/include/bn_color.h:
 C:/butano/butano/include/bn_bpp_mode.h:
 C:/butano/butano/include/bn_compression_type.h:
@@ -413,6 +417,7 @@ C:/butano/butano/src/bn_sprite_affine_mat_pd_register_hbe_handler.h:
 C:/butano/butano/src/bn_sprite_first_attributes_hbe_handler.h:
 C:/butano/butano/include/bn_sprite_first_attributes.h:
 C:/butano/butano/src/bn_sprites_manager.h:
+C:/butano/butano/include/bn_config_sprites.h:
 C:/butano/butano/include/bn_intrusive_list_fwd.h:
 C:/butano/butano/hw/include/bn_hw_sprites.h:
 C:/butano/butano/include/bn_sprite_builder.h:

@@ -3,6 +3,7 @@ bn_hw_palettes.bn_iwram.o: \
  C:/butano/butano/hw/include/bn_hw_palettes.h \
  C:/butano/butano/include/bn_color.h C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_config_doxygen.h \
@@ -40,6 +41,7 @@ C:/butano/butano/hw/include/bn_hw_palettes.h:
 C:/butano/butano/include/bn_color.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_config_doxygen.h:

@@ -9,6 +9,7 @@ bn_display_manager.o: C:/butano/butano/src/bn_display_manager.cpp \
  C:/butano/butano/include/bn_display.h C:/butano/butano/include/bn_size.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_fixed_fwd.h \
@@ -26,6 +27,7 @@ bn_display_manager.o: C:/butano/butano/src/bn_display_manager.cpp \
  C:/butano/butano/include/bn_compare.h \
  C:/butano/butano/src/bn_bgs_manager.h \
  C:/butano/butano/src/bn_sprites_manager.h \
+ C:/butano/butano/include/bn_config_sprites.h \
  C:/butano/butano/include/bn_intrusive_list_fwd.h \
  C:/butano/butano/hw/include/bn_hw_bgs.h \
  C:/butano/butano/include/bn_affine_bg_builder.h \
@@ -125,6 +127,7 @@ C:/butano/butano/include/bn_display.h:
 C:/butano/butano/include/bn_size.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_fixed_fwd.h:
@@ -142,6 +145,7 @@ C:/butano/butano/include/bn_fixed.h:
 C:/butano/butano/include/bn_compare.h:
 C:/butano/butano/src/bn_bgs_manager.h:
 C:/butano/butano/src/bn_sprites_manager.h:
+C:/butano/butano/include/bn_config_sprites.h:
 C:/butano/butano/include/bn_intrusive_list_fwd.h:
 C:/butano/butano/hw/include/bn_hw_bgs.h:
 C:/butano/butano/include/bn_affine_bg_builder.h:

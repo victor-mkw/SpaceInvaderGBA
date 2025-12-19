@@ -9,10 +9,10 @@
 //
 //	ammo_bn_gfx, 16x16@4, 
 //	+ palette 16 entries, not compressed
-//	+ 4 tiles not compressed
+//	+ 4 tiles Metatiled by 2x2 not compressed
 //	Total size: 32 + 128 = 160
 //
-//	Time-stamp: 2025-08-18, 22:41:41
+//	Time-stamp: 2025-11-11, 20:46:02
 //	Exported by Cearn's GBA Image Transmogrifier, v0.9.2
 //	( http://www.coranac.com/projects/#grit )
 //

@@ -3,6 +3,7 @@ bn_bg_blocks_manager.o: C:/butano/butano/src/bn_bg_blocks_manager.cpp \
  C:/butano/butano/include/bn_span.h C:/butano/butano/include/bn_array.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_config_doxygen.h \
@@ -106,6 +107,7 @@ C:/butano/butano/include/bn_span.h:
 C:/butano/butano/include/bn_array.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_config_doxygen.h:

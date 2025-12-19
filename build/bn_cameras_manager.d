@@ -9,6 +9,7 @@ bn_cameras_manager.o: C:/butano/butano/src/bn_cameras_manager.cpp \
  C:/butano/butano/src/bn_bgs_manager.h \
  C:/butano/butano/include/bn_optional_fwd.h \
  C:/butano/butano/src/bn_sprites_manager.h \
+ C:/butano/butano/include/bn_config_sprites.h \
  C:/butano/butano/include/bn_intrusive_list_fwd.h \
  C:/butano/butano/src/bn_display_manager.h \
  C:/butano/butano/include/bn_utility.h \
@@ -19,6 +20,7 @@ bn_cameras_manager.o: C:/butano/butano/src/bn_cameras_manager.cpp \
  C:/butano/butano/include/bn_optional.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_fixed_fwd.h \
@@ -46,6 +48,7 @@ C:/butano/butano/include/bn_config_cameras.h:
 C:/butano/butano/src/bn_bgs_manager.h:
 C:/butano/butano/include/bn_optional_fwd.h:
 C:/butano/butano/src/bn_sprites_manager.h:
+C:/butano/butano/include/bn_config_sprites.h:
 C:/butano/butano/include/bn_intrusive_list_fwd.h:
 C:/butano/butano/src/bn_display_manager.h:
 C:/butano/butano/include/bn_utility.h:
@@ -56,6 +59,7 @@ C:/butano/butano/include/bn_camera_ptr.h:
 C:/butano/butano/include/bn_optional.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_fixed_fwd.h:

@@ -6,6 +6,7 @@ bn_hw_text.o: C:/butano/butano/hw/src/bn_hw_text.cpp \
  C:/butano/butano/include/bn_math.h C:/butano/butano/include/bn_array.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_fixed_fwd.h \
@@ -35,6 +36,7 @@ C:/butano/butano/include/bn_math.h:
 C:/butano/butano/include/bn_array.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_fixed_fwd.h:

@@ -9,10 +9,10 @@
 //
 //	fire_bn_gfx, 16x64@4, 
 //	+ palette 16 entries, not compressed
-//	+ 16 tiles not compressed
+//	+ 16 tiles Metatiled by 2x2 not compressed
 //	Total size: 32 + 512 = 544
 //
-//	Time-stamp: 2025-08-18, 22:51:24
+//	Time-stamp: 2025-11-11, 20:46:02
 //	Exported by Cearn's GBA Image Transmogrifier, v0.9.2
 //	( http://www.coranac.com/projects/#grit )
 //

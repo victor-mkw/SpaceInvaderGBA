@@ -7,6 +7,7 @@ bn_memory_manager.o: C:/butano/butano/src/bn_memory_manager.cpp \
  C:/butano/butano/include/bn_best_fit_allocator.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_fixed_fwd.h \
@@ -59,6 +60,7 @@ C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_best_fit_allocator.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_fixed_fwd.h:

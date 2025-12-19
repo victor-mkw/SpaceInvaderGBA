@@ -4,11 +4,13 @@ bn_sprites_manager.o: C:/butano/butano/src/bn_sprites_manager.cpp \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_optional_fwd.h \
+ C:/butano/butano/include/bn_config_sprites.h \
  C:/butano/butano/include/bn_fixed_point_fwd.h \
  C:/butano/butano/include/bn_intrusive_list_fwd.h \
  C:/butano/butano/include/bn_vector.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_fixed_fwd.h \
@@ -31,7 +33,6 @@ bn_sprites_manager.o: C:/butano/butano/src/bn_sprites_manager.cpp \
  C:/butano/butano/include/bn_pool_fwd.h \
  C:/butano/butano/include/bn_generic_pool.h \
  C:/butano/butano/include/bn_generic_pool_fwd.h \
- C:/butano/butano/include/bn_config_sprites.h \
  C:/butano/butano/src/bn_sprites_manager_item.h \
  C:/butano/butano/include/bn_display.h C:/butano/butano/include/bn_size.h \
  C:/butano/butano/hw/include/bn_hw_display_constants.h \
@@ -115,11 +116,13 @@ C:/butano/butano/include/bn_fixed_fwd.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_optional_fwd.h:
+C:/butano/butano/include/bn_config_sprites.h:
 C:/butano/butano/include/bn_fixed_point_fwd.h:
 C:/butano/butano/include/bn_intrusive_list_fwd.h:
 C:/butano/butano/include/bn_vector.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_fixed_fwd.h:
@@ -142,7 +145,6 @@ C:/butano/butano/include/bn_pool.h:
 C:/butano/butano/include/bn_pool_fwd.h:
 C:/butano/butano/include/bn_generic_pool.h:
 C:/butano/butano/include/bn_generic_pool_fwd.h:
-C:/butano/butano/include/bn_config_sprites.h:
 C:/butano/butano/src/bn_sprites_manager_item.h:
 C:/butano/butano/include/bn_display.h:
 C:/butano/butano/include/bn_size.h:

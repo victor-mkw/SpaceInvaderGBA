@@ -3,6 +3,7 @@ bn_hw_common.bn_noflto.o: \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_config_doxygen.h \
@@ -18,6 +19,7 @@ bn_hw_common.bn_noflto.o: \
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_config_doxygen.h:

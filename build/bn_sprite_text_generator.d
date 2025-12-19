@@ -4,6 +4,7 @@ bn_sprite_text_generator.o: \
  C:/butano/butano/include/bn_vector.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_config_doxygen.h \
@@ -81,6 +82,7 @@ C:/butano/butano/include/bn_sprite_text_generator.h:
 C:/butano/butano/include/bn_vector.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_config_doxygen.h:

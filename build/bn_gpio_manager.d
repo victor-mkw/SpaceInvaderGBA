@@ -6,6 +6,7 @@ bn_gpio_manager.o: C:/butano/butano/src/bn_gpio_manager.cpp \
  C:/butano/butano/hw/include/bn_hw_gpio.h \
  C:/butano/butano/include/bn_date.h C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_fixed_fwd.h \
@@ -33,6 +34,7 @@ C:/butano/butano/hw/include/bn_hw_gpio.h:
 C:/butano/butano/include/bn_date.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_fixed_fwd.h:

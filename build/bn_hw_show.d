@@ -1,6 +1,7 @@
 bn_hw_show.o: C:/butano/butano/hw/src/bn_hw_show.cpp \
  C:/butano/butano/hw/include/bn_hw_show.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_config_profiler.h \
@@ -86,6 +87,7 @@ bn_hw_show.o: C:/butano/butano/hw/src/bn_hw_show.cpp \
  C:/butano/butano/include/bn_log_backend.h
 C:/butano/butano/hw/include/bn_hw_show.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_config_profiler.h:

@@ -5,10 +5,10 @@
 @
 @	invaders_bn_gfx, 16x32@4, 
 @	+ palette 16 entries, not compressed
-@	+ 8 tiles not compressed
+@	+ 8 tiles Metatiled by 2x2 not compressed
 @	Total size: 32 + 256 = 288
 @
-@	Time-stamp: 2025-08-18, 10:56:38
+@	Time-stamp: 2025-11-27, 20:44:32
 @	Exported by Cearn's GBA Image Transmogrifier, v0.9.2
 @	( http://www.coranac.com/projects/#grit )
 @
@@ -33,7 +33,7 @@ invaders_bn_gfxTiles:
 	.global invaders_bn_gfxPal		@ 32 unsigned chars
 	.hidden invaders_bn_gfxPal
 invaders_bn_gfxPal:
-	.hword 0x0000,0x20A1,0x28E4,0x352A,0x3DB1,0x2E1A,0x2EBF,0x535F
-	.hword 0x6BBF,0x20C6,0x418D,0x28E8,0x1973,0x36DF,0x263B,0x0000
+	.hword 0x0000,0x20A1,0x28E4,0x4D36,0x3D51,0x2E1F,0x2F1F,0x375F
+	.hword 0x6BBF,0x34EB,0x54F7,0x4950,0x2198,0x36DF,0x263B,0x0000
 
 @}}BLOCK(invaders_bn_gfx)

@@ -5,10 +5,10 @@
 @
 @	spaceship_bn_gfx, 16x48@4, 
 @	+ palette 16 entries, not compressed
-@	+ 12 tiles not compressed
+@	+ 12 tiles Metatiled by 2x2 not compressed
 @	Total size: 32 + 384 = 416
 @
-@	Time-stamp: 2025-08-18, 20:59:35
+@	Time-stamp: 2025-11-11, 20:46:02
 @	Exported by Cearn's GBA Image Transmogrifier, v0.9.2
 @	( http://www.coranac.com/projects/#grit )
 @

@@ -13,6 +13,7 @@ bn_sprite_affine_mats_manager.o: \
  C:/butano/butano/include/bn_intrusive_list.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_string_fwd.h \
@@ -40,6 +41,7 @@ bn_sprite_affine_mats_manager.o: \
  C:/butano/butano/include/bn_optional_fwd.h \
  C:/butano/butano/include/bn_fixed_point_fwd.h \
  C:/butano/butano/src/bn_sprites_manager.h \
+ C:/butano/butano/include/bn_config_sprites.h \
  C:/butano/butano/include/bn_intrusive_list_fwd.h \
  C:/butano/butano/include/bn_sprite_tiles_ptr.h \
  C:/butano/butano/include/bn_span.h C:/butano/butano/include/bn_array.h \
@@ -107,6 +109,7 @@ C:/butano/butano/include/bn_type_traits.h:
 C:/butano/butano/include/bn_intrusive_list.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_string_fwd.h:
@@ -137,6 +140,7 @@ C:/butano/butano/include/bn_fixed_fwd.h:
 C:/butano/butano/include/bn_optional_fwd.h:
 C:/butano/butano/include/bn_fixed_point_fwd.h:
 C:/butano/butano/src/bn_sprites_manager.h:
+C:/butano/butano/include/bn_config_sprites.h:
 C:/butano/butano/include/bn_intrusive_list_fwd.h:
 C:/butano/butano/include/bn_sprite_tiles_ptr.h:
 C:/butano/butano/include/bn_span.h:

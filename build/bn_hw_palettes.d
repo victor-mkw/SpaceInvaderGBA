@@ -2,6 +2,7 @@ bn_hw_palettes.o: C:/butano/butano/hw/src/bn_hw_palettes.cpp \
  C:/butano/butano/hw/include/bn_hw_palettes.h \
  C:/butano/butano/include/bn_color.h C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_config_doxygen.h \
@@ -47,6 +48,7 @@ C:/butano/butano/hw/include/bn_hw_palettes.h:
 C:/butano/butano/include/bn_color.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_config_doxygen.h:

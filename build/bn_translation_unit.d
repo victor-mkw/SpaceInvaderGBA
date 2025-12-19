@@ -4,6 +4,7 @@ bn_translation_unit.o: C:/butano/butano/src/bn_translation_unit.cpp \
  C:/butano/butano/include/bn_span.h C:/butano/butano/include/bn_array.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_config_doxygen.h \
@@ -62,8 +63,7 @@ bn_translation_unit.o: C:/butano/butano/src/bn_translation_unit.cpp \
  C:/butano/butano/include/bn_backdrop.h \
  C:/butano/butano/include/bn_optional.h \
  C:/butano/butano/src/bn_palettes_bank.h \
- C:/butano/butano/include/bn_span.h C:/butano/butano/include/bn_fixed.h \
- C:/butano/butano/include/bn_limits.h \
+ C:/butano/butano/include/bn_fixed.h C:/butano/butano/include/bn_limits.h \
  C:/butano/butano/include/bn_optional.h \
  C:/butano/butano/include/bn_config_log.h \
  C:/butano/butano/include/bn_log_backend.h \
@@ -72,6 +72,7 @@ bn_translation_unit.o: C:/butano/butano/src/bn_translation_unit.cpp \
  C:/butano/butano/include/bn_power_of_two.h \
  C:/butano/butano/include/bn_unordered_map_fwd.h \
  C:/butano/butano/src/bn_identity_hasher.h \
+ C:/butano/butano/include/bn_palette_effect_type.h \
  C:/butano/butano/src/bn_display_manager.h \
  C:/butano/butano/include/bn_utility.h \
  C:/butano/butano/include/bn_fixed_fwd.h \
@@ -84,6 +85,7 @@ bn_translation_unit.o: C:/butano/butano/src/bn_translation_unit.cpp \
  C:/butano/butano/include/bn_string_view.h \
  C:/butano/butano/src/bn_log.cpp.h C:/butano/butano/include/bn_log.h \
  C:/butano/butano/include/bn_config_log.h \
+ C:/butano/butano/include/bn_log_level.h \
  C:/butano/butano/hw/include/bn_hw_log.h \
  C:/butano/butano/include/bn_istring_base.h \
  C:/butano/butano/include/bn_algorithm.h \
@@ -98,6 +100,7 @@ bn_translation_unit.o: C:/butano/butano/src/bn_translation_unit.cpp \
  C:/butano/butano/include/bn_sin_lut.h C:/butano/butano/src/bn_sram.cpp.h \
  C:/butano/butano/include/bn_sram.h \
  C:/butano/butano/hw/include/bn_hw_sram_constants.h \
+ C:/butano/butano/include/bn_span.h \
  C:/butano/butano/hw/include/bn_hw_sram.h
 C:/butano/butano/src/bn_color_effect.cpp.h:
 C:/butano/butano/include/bn_color_effect.h:
@@ -105,6 +108,7 @@ C:/butano/butano/include/bn_span.h:
 C:/butano/butano/include/bn_array.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_config_doxygen.h:
@@ -165,7 +169,6 @@ C:/butano/butano/src/bn_backdrop.cpp.h:
 C:/butano/butano/include/bn_backdrop.h:
 C:/butano/butano/include/bn_optional.h:
 C:/butano/butano/src/bn_palettes_bank.h:
-C:/butano/butano/include/bn_span.h:
 C:/butano/butano/include/bn_fixed.h:
 C:/butano/butano/include/bn_limits.h:
 C:/butano/butano/include/bn_optional.h:
@@ -176,6 +179,7 @@ C:/butano/butano/include/bn_memory.h:
 C:/butano/butano/include/bn_power_of_two.h:
 C:/butano/butano/include/bn_unordered_map_fwd.h:
 C:/butano/butano/src/bn_identity_hasher.h:
+C:/butano/butano/include/bn_palette_effect_type.h:
 C:/butano/butano/src/bn_display_manager.h:
 C:/butano/butano/include/bn_utility.h:
 C:/butano/butano/include/bn_fixed_fwd.h:
@@ -189,6 +193,7 @@ C:/butano/butano/include/bn_string_view.h:
 C:/butano/butano/src/bn_log.cpp.h:
 C:/butano/butano/include/bn_log.h:
 C:/butano/butano/include/bn_config_log.h:
+C:/butano/butano/include/bn_log_level.h:
 C:/butano/butano/hw/include/bn_hw_log.h:
 C:/butano/butano/include/bn_istring_base.h:
 C:/butano/butano/include/bn_algorithm.h:
@@ -204,4 +209,5 @@ C:/butano/butano/include/bn_sin_lut.h:
 C:/butano/butano/src/bn_sram.cpp.h:
 C:/butano/butano/include/bn_sram.h:
 C:/butano/butano/hw/include/bn_hw_sram_constants.h:
+C:/butano/butano/include/bn_span.h:
 C:/butano/butano/hw/include/bn_hw_sram.h:

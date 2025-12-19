@@ -2,6 +2,7 @@ bn_hw_gpio.bn_noflto.o: C:/butano/butano/hw/src/bn_hw_gpio.bn_noflto.cpp \
  C:/butano/butano/hw/include/bn_hw_gpio.h \
  C:/butano/butano/include/bn_date.h C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_config_doxygen.h \
@@ -24,6 +25,7 @@ C:/butano/butano/hw/include/bn_hw_gpio.h:
 C:/butano/butano/include/bn_date.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_config_doxygen.h:

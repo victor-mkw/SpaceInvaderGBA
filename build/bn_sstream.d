@@ -6,6 +6,7 @@ bn_sstream.o: C:/butano/butano/src/bn_sstream.cpp \
  C:/butano/butano/include/bn_string_fwd.h \
  C:/butano/butano/include/bn_array.h C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_istring_base.h \
@@ -30,6 +31,7 @@ C:/butano/butano/include/bn_string_fwd.h:
 C:/butano/butano/include/bn_array.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_istring_base.h:

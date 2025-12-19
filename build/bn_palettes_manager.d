@@ -15,6 +15,7 @@ bn_palettes_manager.o: C:/butano/butano/src/bn_palettes_manager.cpp \
  C:/butano/butano/include/bn_optional.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_string_fwd.h \
@@ -22,11 +23,12 @@ bn_palettes_manager.o: C:/butano/butano/src/bn_palettes_manager.cpp \
  C:/butano/butano/include/bn_assert_callback_type.h \
  C:/butano/butano/include/bn_utility.h \
  C:/butano/butano/include/bn_memory_alias.h \
- C:/butano/butano/src/bn_palettes_bank.h \
+ C:/butano/butano/include/bn_palette_effect_type.h \
  C:/butano/butano/include/bn_span.h C:/butano/butano/include/bn_array.h \
  C:/butano/butano/include/bn_iterator.h \
  C:/butano/butano/include/bn_array_fwd.h \
  C:/butano/butano/include/bn_span_fwd.h \
+ C:/butano/butano/src/bn_palettes_bank.h \
  C:/butano/butano/include/bn_fixed.h C:/butano/butano/include/bn_color.h \
  C:/butano/butano/include/bn_limits.h \
  C:/butano/butano/include/bn_optional.h \
@@ -40,6 +42,7 @@ bn_palettes_manager.o: C:/butano/butano/src/bn_palettes_manager.cpp \
  C:/butano/butano/include/bn_unordered_map_fwd.h \
  C:/butano/butano/src/bn_identity_hasher.h \
  C:/butano/butano/include/bn_common.h \
+ C:/butano/butano/include/bn_palette_effect_type.h \
  C:/butano/butano/hw/include/bn_hw_palettes.h \
  C:/butano/butano/hw/include/bn_hw_dma.h \
  C:/butano/butano/hw/include/bn_hw_tonc.h \
@@ -62,7 +65,6 @@ bn_palettes_manager.o: C:/butano/butano/src/bn_palettes_manager.cpp \
  C:/butano/butano/hw/3rd_party/agbabi/include/agbabi.h \
  C:/butano/butano/src/bn_bg_palette_ptr.cpp.h \
  C:/butano/butano/include/bn_bg_palette_ptr.h \
- C:/butano/butano/include/bn_span.h \
  C:/butano/butano/include/bn_bg_palette_item.h \
  C:/butano/butano/include/bn_color.h \
  C:/butano/butano/include/bn_bpp_mode.h \
@@ -103,6 +105,7 @@ C:/butano/butano/include/bn_type_traits.h:
 C:/butano/butano/include/bn_optional.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_string_fwd.h:
@@ -110,12 +113,13 @@ C:/butano/butano/include/bn_istring_base.h:
 C:/butano/butano/include/bn_assert_callback_type.h:
 C:/butano/butano/include/bn_utility.h:
 C:/butano/butano/include/bn_memory_alias.h:
-C:/butano/butano/src/bn_palettes_bank.h:
+C:/butano/butano/include/bn_palette_effect_type.h:
 C:/butano/butano/include/bn_span.h:
 C:/butano/butano/include/bn_array.h:
 C:/butano/butano/include/bn_iterator.h:
 C:/butano/butano/include/bn_array_fwd.h:
 C:/butano/butano/include/bn_span_fwd.h:
+C:/butano/butano/src/bn_palettes_bank.h:
 C:/butano/butano/include/bn_fixed.h:
 C:/butano/butano/include/bn_color.h:
 C:/butano/butano/include/bn_limits.h:
@@ -130,6 +134,7 @@ C:/butano/butano/include/bn_power_of_two.h:
 C:/butano/butano/include/bn_unordered_map_fwd.h:
 C:/butano/butano/src/bn_identity_hasher.h:
 C:/butano/butano/include/bn_common.h:
+C:/butano/butano/include/bn_palette_effect_type.h:
 C:/butano/butano/hw/include/bn_hw_palettes.h:
 C:/butano/butano/hw/include/bn_hw_dma.h:
 C:/butano/butano/hw/include/bn_hw_tonc.h:
@@ -152,7 +157,6 @@ C:/butano/butano/hw/3rd_party/agbabi/include/aeabi.h:
 C:/butano/butano/hw/3rd_party/agbabi/include/agbabi.h:
 C:/butano/butano/src/bn_bg_palette_ptr.cpp.h:
 C:/butano/butano/include/bn_bg_palette_ptr.h:
-C:/butano/butano/include/bn_span.h:
 C:/butano/butano/include/bn_bg_palette_item.h:
 C:/butano/butano/include/bn_color.h:
 C:/butano/butano/include/bn_bpp_mode.h:

@@ -3,6 +3,7 @@ bn_regular_bg_animate_actions.o: \
  C:/butano/butano/include/bn_regular_bg_animate_actions.h \
  C:/butano/butano/include/bn_array.h C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_config_doxygen.h \
@@ -43,6 +44,7 @@ C:/butano/butano/include/bn_regular_bg_animate_actions.h:
 C:/butano/butano/include/bn_array.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_config_doxygen.h:

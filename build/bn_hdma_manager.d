@@ -1,11 +1,13 @@
 bn_hdma_manager.o: C:/butano/butano/src/bn_hdma_manager.cpp \
  C:/butano/butano/src/bn_hdma_manager.h \
+ C:/butano/butano/include/bn_hdma.h \
+ C:/butano/butano/include/bn_span_fwd.h \
  C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_common.h \
  C:/butano/butano/include/bn_display.h C:/butano/butano/include/bn_size.h \
  C:/butano/butano/include/bn_assert.h \
  C:/butano/butano/include/bn_config_assert.h \
- C:/butano/butano/include/bn_common.h \
+ C:/butano/butano/include/bn_version.h \
  C:/butano/butano/include/bn_config_doxygen.h \
  C:/butano/butano/include/bn_sstream.h \
  C:/butano/butano/include/bn_fixed_fwd.h \
@@ -17,6 +19,7 @@ bn_hdma_manager.o: C:/butano/butano/src/bn_hdma_manager.cpp \
  C:/butano/butano/include/bn_type_traits.h \
  C:/butano/butano/include/bn_assert_callback_type.h \
  C:/butano/butano/hw/include/bn_hw_display_constants.h \
+ C:/butano/butano/include/bn_common.h \
  C:/butano/butano/hw/include/bn_hw_dma.h \
  C:/butano/butano/hw/include/bn_hw_tonc.h \
  C:/butano/butano/hw/3rd_party/libtonc/include/tonc.h \
@@ -33,24 +36,35 @@ bn_hdma_manager.o: C:/butano/butano/src/bn_hdma_manager.cpp \
  C:/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h \
  C:/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h \
  C:/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h \
- C:/butano/butano/hw/include/bn_hw_memory.h \
- C:/butano/butano/hw/3rd_party/agbabi/include/aeabi.h \
- C:/butano/butano/hw/3rd_party/agbabi/include/agbabi.h \
- C:/butano/butano/src/bn_hdma.cpp.h C:/butano/butano/include/bn_hdma.h \
- C:/butano/butano/include/bn_span_fwd.h \
+ C:/butano/butano/hw/include/bn_hw_irq.h \
+ C:/butano/butano/hw/3rd_party/libugba/include/ugba/interrupts.h \
+ C:/butano/butano/hw/include/bn_hw_audio.h \
+ C:/butano/butano/hw/include/bn_hw_audio_maxmod.h \
+ C:/butano/butano/hw/3rd_party/maxmod/include/maxmod.h \
+ C:/butano/butano/hw/3rd_party/maxmod/include/mm_types.h \
  C:/butano/butano/include/bn_span.h C:/butano/butano/include/bn_array.h \
  C:/butano/butano/include/bn_utility.h \
  C:/butano/butano/include/bn_iterator.h \
  C:/butano/butano/include/bn_array_fwd.h \
- C:/butano/butano/include/bn_assert.h
+ C:/butano/butano/include/bn_fixed.h \
+ C:/butano/butano/include/bn_compare.h \
+ C:/butano/butano/include/bn_optional.h \
+ C:/butano/butano/include/bn_memory_alias.h \
+ C:/butano/butano/hw/include/bn_hw_memory.h \
+ C:/butano/butano/hw/3rd_party/agbabi/include/aeabi.h \
+ C:/butano/butano/hw/3rd_party/agbabi/include/agbabi.h \
+ C:/butano/butano/src/bn_hdma.cpp.h \
+ C:/butano/butano/include/bn_config_hdma.h
 C:/butano/butano/src/bn_hdma_manager.h:
+C:/butano/butano/include/bn_hdma.h:
+C:/butano/butano/include/bn_span_fwd.h:
 C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_common.h:
 C:/butano/butano/include/bn_display.h:
 C:/butano/butano/include/bn_size.h:
 C:/butano/butano/include/bn_assert.h:
 C:/butano/butano/include/bn_config_assert.h:
-C:/butano/butano/include/bn_common.h:
+C:/butano/butano/include/bn_version.h:
 C:/butano/butano/include/bn_config_doxygen.h:
 C:/butano/butano/include/bn_sstream.h:
 C:/butano/butano/include/bn_fixed_fwd.h:
@@ -62,6 +76,7 @@ C:/butano/butano/include/bn_alignment.h:
 C:/butano/butano/include/bn_type_traits.h:
 C:/butano/butano/include/bn_assert_callback_type.h:
 C:/butano/butano/hw/include/bn_hw_display_constants.h:
+C:/butano/butano/include/bn_common.h:
 C:/butano/butano/hw/include/bn_hw_dma.h:
 C:/butano/butano/hw/include/bn_hw_tonc.h:
 C:/butano/butano/hw/3rd_party/libtonc/include/tonc.h:
@@ -78,15 +93,23 @@ C:/butano/butano/hw/3rd_party/libtonc/include/tonc_tte.h:
 C:/butano/butano/hw/3rd_party/libtonc/include/tonc_surface.h:
 C:/butano/butano/hw/3rd_party/libtonc/include/tonc_video.h:
 C:/butano/butano/hw/3rd_party/libtonc/include/tonc_nocash.h:
-C:/butano/butano/hw/include/bn_hw_memory.h:
-C:/butano/butano/hw/3rd_party/agbabi/include/aeabi.h:
-C:/butano/butano/hw/3rd_party/agbabi/include/agbabi.h:
-C:/butano/butano/src/bn_hdma.cpp.h:
-C:/butano/butano/include/bn_hdma.h:
-C:/butano/butano/include/bn_span_fwd.h:
+C:/butano/butano/hw/include/bn_hw_irq.h:
+C:/butano/butano/hw/3rd_party/libugba/include/ugba/interrupts.h:
+C:/butano/butano/hw/include/bn_hw_audio.h:
+C:/butano/butano/hw/include/bn_hw_audio_maxmod.h:
+C:/butano/butano/hw/3rd_party/maxmod/include/maxmod.h:
+C:/butano/butano/hw/3rd_party/maxmod/include/mm_types.h:
 C:/butano/butano/include/bn_span.h:
 C:/butano/butano/include/bn_array.h:
 C:/butano/butano/include/bn_utility.h:
 C:/butano/butano/include/bn_iterator.h:
 C:/butano/butano/include/bn_array_fwd.h:
-C:/butano/butano/include/bn_assert.h:
+C:/butano/butano/include/bn_fixed.h:
+C:/butano/butano/include/bn_compare.h:
+C:/butano/butano/include/bn_optional.h:
+C:/butano/butano/include/bn_memory_alias.h:
+C:/butano/butano/hw/include/bn_hw_memory.h:
+C:/butano/butano/hw/3rd_party/agbabi/include/aeabi.h:
+C:/butano/butano/hw/3rd_party/agbabi/include/agbabi.h:
+C:/butano/butano/src/bn_hdma.cpp.h:
+C:/butano/butano/include/bn_config_hdma.h:
